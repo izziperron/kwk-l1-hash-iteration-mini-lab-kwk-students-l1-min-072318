@@ -2,12 +2,11 @@
 <img src="https://s3.amazonaws.com/after-school-assets/sydney.jpg" width="300px" align="right" hspace="10"> The Summer Olympics take place every four years in different location around the world. Using the data from the table below, create a hash `summer_olympics`, using the city as the hash's key and the year as the hash's value. Use `:symbols` instead of string for the keys.
 
 
-|Place          | Year      |
-| ------------- |:---------:|
-| Sydney        | 2000      |
-| Athens        | 2004      |
-| Beijing       | 2008      |
-| London        | 2012      |
+summer_olympics = {
+:Sydney => "2000"  
+:Athens ="2004  
+:Beijing      2008
+:London       2012
 
 ### Add A Key Value Pair
 The 1996 summer olympics took place in Atlanta. Add this information to the hash.
