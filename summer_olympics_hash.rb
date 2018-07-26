@@ -26,7 +26,7 @@ def iterate_through_hash
 :Beijing => "2008"
 :London => "2012"
 }
-  puts 
+  puts "The "
 end
 
 def iterate_through_keys
